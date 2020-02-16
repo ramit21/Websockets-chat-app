@@ -15,6 +15,8 @@ const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML
 // Options
 const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true })
 
+//When a user scrolls up to see old messages, and a new message arrives, the scroll should
+//stay there, so that user is still able to read older messages.
 const autoscroll = () => {
     // New message element
     const $newMessage = $messages.lastElementChild
