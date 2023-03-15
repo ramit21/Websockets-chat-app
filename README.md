@@ -1,5 +1,5 @@
 # Websockets-chat-app
-Websockets using nodejs. Websockets are used for real time messaging using persisant connections.
+Websockets using nodejs. Websockets are used for real time messaging using persistant connections.
 
 When a user joins a chat room, websocket connection is established with the servers. When the user sends a message to the server, the server then pushes the same message to all other users connected to the same chat room.
 
